@@ -33,8 +33,8 @@ Thanks To Fayas
 
 <b>Deploy in your vps</b>
 ```sh
-git clone https://github.com/MRK-YT/MT-URL-Uploader
-cd MT-URL-Uploader
+git clone https://github.com/Siddwap/SiddUploader1
+cd Sidd-Url-Uploader
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
 python3 bot.py
