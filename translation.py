@@ -24,17 +24,17 @@ Made by Shuaib Siddiqui
 """
     ABOUT_TEXT = """
 - **Bot :** Sidd-Url-Uploader
-- **Creator :** [Shuaib Siddiqui](#)
-- **Channel :** [SiddTech](#)
+- **Creator :** [Shuaib Siddiqui](https://t.me/siddurlupldr)
+- **Channel :** [SiddTech](https://t.me/siddurlupldr)
 - **Credits :** `Everyone in this journey`
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 """
    START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url=#'),
-        InlineKeyboardButton('🤖Bot List', url='#'),
-        InlineKeyboardButton('👨‍💻Source', url='#')
+        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url=https://t.me/siddurlupldr'),
+        InlineKeyboardButton('🤖Bot List', url='https://t.me/siddurlupldr'),
+        InlineKeyboardButton('👨‍💻Source', url='https://t.me/siddurlupldr')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -43,9 +43,9 @@ Made by Shuaib Siddiqui
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='#'),
-        InlineKeyboardButton('🤖Bot List', url='#'),
-        InlineKeyboardButton('👨‍💻Source', url='#')
+        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/siddurlupldr'),
+        InlineKeyboardButton('🤖Bot List', url='https://t.me/siddurlupldr'),
+        InlineKeyboardButton('👨‍💻Source', url='https://t.me/siddurlupldr')
         ],[
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -54,9 +54,9 @@ Made by Shuaib Siddiqui
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='#'),
-        InlineKeyboardButton('🤖Bot List', url='#'),
-        InlineKeyboardButton('👨‍💻Source', url='#')
+        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/siddurlupldr'),
+        InlineKeyboardButton('🤖Bot List', url='https://t.me/siddurlupldr'),
+        InlineKeyboardButton('👨‍💻Source', url='https://t.me/siddurlupldr')
         ],[
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('Help', callback_data='help'),
