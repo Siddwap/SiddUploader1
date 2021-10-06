@@ -7,7 +7,7 @@
     "uploader",
     "pyrogram"
   ],
-  "repository": "https://github.com/Siddwap/SiddUploader1"
+  "repository": "https://github.com/Siddwap/SiddUploader1",
   "env": {
     "WEBHOOK": {
       "description": "Leave this as it is! ANYTHING",
@@ -17,10 +17,10 @@
       "description": "Your bot token from @botfather, as a string."
     },
     "APP_ID": {
-      "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot"
+      "description": "Get this value from https://my.telegram.org"
     },
     "API_HASH": {
-      "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot"
+      "description": "Get this value from https://my.telegram.org"
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot"
