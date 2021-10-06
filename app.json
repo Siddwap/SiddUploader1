@@ -1,5 +1,5 @@
 {
-  "name": "Sidd-Uploader-Bot",
+  "name": "Sidd-Url-Uploader",
   "description": "An url uploader bot with permenent thumbnail support",
   "keywords": [
     "telegram",
@@ -7,9 +7,7 @@
     "uploader",
     "pyrogram"
   ],
-  "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
-  "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
-  "repository": "https://github.com/MRK-YT/MT-URL-Uploader",
+  "repository": "https://github.com/Siddwap/SiddUploader1"
   "env": {
     "WEBHOOK": {
       "description": "Leave this as it is! ANYTHING",
