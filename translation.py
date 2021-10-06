@@ -20,17 +20,49 @@ Made by Shuaib Siddiqui
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb to view custom thumbnail.
 
-Made by @Mo_Tech_YT
+Made by Shuaib Siddiqui 
 """
     ABOUT_TEXT = """
 - **Bot :** Sidd-Url-Uploader
-- **Creator :** [Shuaib Siddiqui]()
-- **Channel :** [SiddTech]()
+- **Creator :** [Shuaib Siddiqui](#)
+- **Channel :** [SiddTech](#)
 - **Credits :** `Everyone in this journey`
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 """
- 
+   START_BUTTONS = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url=#'),
+        InlineKeyboardButton('🤖Bot List', url='#'),
+        InlineKeyboardButton('👨‍💻Source', url='#')
+        ],[
+        InlineKeyboardButton('Help', callback_data='help'),
+        InlineKeyboardButton('About', callback_data='about'),
+        InlineKeyboardButton('Close', callback_data='close')
+        ]]
+    )
+    HELP_BUTTONS = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='#'),
+        InlineKeyboardButton('🤖Bot List', url='#'),
+        InlineKeyboardButton('👨‍💻Source', url='#')
+        ],[
+        InlineKeyboardButton('Home', callback_data='home'),
+        InlineKeyboardButton('About', callback_data='about'),
+        InlineKeyboardButton('Close', callback_data='close')
+        ]]
+    )
+    ABOUT_BUTTONS = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='#'),
+        InlineKeyboardButton('🤖Bot List', url='#'),
+        InlineKeyboardButton('👨‍💻Source', url='#')
+        ],[
+        InlineKeyboardButton('Home', callback_data='home'),
+        InlineKeyboardButton('Help', callback_data='help'),
+        InlineKeyboardButton('Close', callback_data='close')
+        ]]
+    )
     FORMAT_SELECTION = """<b>Select the desired format:</b> <a href='{}'>file size might be approximate</a>
     
 Send your custum thumbnail if required.
